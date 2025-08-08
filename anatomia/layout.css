@@ -169,7 +169,6 @@
     display: flex;
     align-items: center;
     text-align: left;
-    padding: 12px;
     color: var(--yt);
     font-size: 15px;
     background-color: var(--yt);
@@ -191,6 +190,9 @@
 }
 .meatballs-menu-expanded__option a {
     color: #333;
+    padding: 12px;
+    display: block;
+    width: 100%;
 }
 .tooltip {
     position: absolute;
